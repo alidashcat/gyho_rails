@@ -69,5 +69,9 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'random_colourful_animal',
+      git: 'https://gitlab.agile.nat.bt.com/APP14352/small-projects/random_colourful_animal.git', tag: 'v0.0.5'
 end
 

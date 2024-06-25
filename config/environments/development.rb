@@ -73,12 +73,10 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   # config/environments/development.rb
-Rails.application.configure do
   config.generators.after_generate do |files|
     parsable_files = files.filter { |file| file.end_with?('.rb') }
     unless parsable_files.empty?
       system("bundle exec rubocop -a --fail-level=E #{parsable_files.shelljoin}", exception: true)
     end
   end
-end
 end
