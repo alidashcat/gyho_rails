@@ -15,6 +15,7 @@ AllCops:
     - config/boot.rb
     - config/environment.rb
     - config/environments/*
+    - lib/tasks/default.rake
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
