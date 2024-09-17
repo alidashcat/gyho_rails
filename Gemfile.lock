@@ -1,3 +1,10 @@
+GIT
+  remote: https://gitlab.agile.nat.bt.com/APP14352/small-projects/random_colourful_animal.git
+  revision: a83b4b8a5b58211af4d16264f45db9af121c13b4
+  tag: v0.0.5
+  specs:
+    random_colourful_animal (0.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -227,6 +234,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.4)
+  random_colourful_animal!
   rubocop-rails
   sprockets-rails
   stimulus-rails
