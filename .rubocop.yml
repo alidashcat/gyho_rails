@@ -1,0 +1,22 @@
+require: 
+  - rubocop-rails
+
+Rails:
+  Enabled: true
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.2
+  Exclude:
+    # Generated files
+    - config/puma.rb
+    - config.ru
+    - bin/**/*
+    - config/application.rb
+    - config/boot.rb
+    - config/environment.rb
+    - config/environments/*
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/Documentation:
+  Enabled: false
