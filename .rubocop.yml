@@ -16,6 +16,7 @@ AllCops:
     - config/environment.rb
     - config/environments/*
     - lib/tasks/default.rake
+    - lib/tasks/cucumber.rake
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes

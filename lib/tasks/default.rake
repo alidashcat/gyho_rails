@@ -5,6 +5,7 @@ Rake::Task[:default].prerequisites.clear if Rake::Task.task_defined? :default
 task default: %i[
   rubocop
   rspec
+  cucumber
   random_colourful_animal
   gyho_success
 ]
